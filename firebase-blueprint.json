@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+      "collection": "questions",
+      "read": "request.auth != null",
+      "write": "request.auth != null"
+    }
+  ]
+}
